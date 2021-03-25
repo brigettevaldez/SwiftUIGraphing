@@ -13,6 +13,13 @@
 		48086D59260CFAAE00C3F862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48086D58260CFAAE00C3F862 /* Preview Assets.xcassets */; };
 		48086D64260CFAAE00C3F862 /* SwiftUIGraphingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D63260CFAAE00C3F862 /* SwiftUIGraphingTests.swift */; };
 		48086D6F260CFAAE00C3F862 /* SwiftUIGraphingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D6E260CFAAE00C3F862 /* SwiftUIGraphingUITests.swift */; };
+		48086D80260CFB5B00C3F862 /* CapsuleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D7F260CFB5B00C3F862 /* CapsuleBar.swift */; };
+		48086D85260CFCD000C3F862 /* CapsuleBarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D84260CFCD000C3F862 /* CapsuleBarGraph.swift */; };
+		48086D8A260CFD4900C3F862 /* CapsuleBarGraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D89260CFD4900C3F862 /* CapsuleBarGraphViewModel.swift */; };
+		48086D92260CFE8300C3F862 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D91260CFE8300C3F862 /* ChartData.swift */; };
+		48086D9A260CFE9200C3F862 /* MultilineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D99260CFE9200C3F862 /* MultilineChartData.swift */; };
+		48086DA0260CFED900C3F862 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D9F260CFED900C3F862 /* ColorExtension.swift */; };
+		48086DA5260CFFAE00C3F862 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086DA4260CFFAE00C3F862 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		48086D6A260CFAAE00C3F862 /* SwiftUIGraphingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIGraphingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48086D6E260CFAAE00C3F862 /* SwiftUIGraphingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGraphingUITests.swift; sourceTree = "<group>"; };
 		48086D70260CFAAE00C3F862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48086D7F260CFB5B00C3F862 /* CapsuleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleBar.swift; sourceTree = "<group>"; };
+		48086D84260CFCD000C3F862 /* CapsuleBarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleBarGraph.swift; sourceTree = "<group>"; };
+		48086D89260CFD4900C3F862 /* CapsuleBarGraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleBarGraphViewModel.swift; sourceTree = "<group>"; };
+		48086D91260CFE8300C3F862 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		48086D99260CFE9200C3F862 /* MultilineChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineChartData.swift; sourceTree = "<group>"; };
+		48086D9F260CFED900C3F862 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		48086DA4260CFFAE00C3F862 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +109,10 @@
 		48086D50260CFAAC00C3F862 /* SwiftUIGraphing */ = {
 			isa = PBXGroup;
 			children = (
-				48086D51260CFAAC00C3F862 /* SwiftUIGraphingApp.swift */,
-				48086D53260CFAAC00C3F862 /* ContentView.swift */,
+				48086D9E260CFEC600C3F862 /* Extensions */,
+				48086D90260CFE0F00C3F862 /* View */,
+				48086D8F260CFE0400C3F862 /* ViewModel */,
+				48086D8E260CFDFF00C3F862 /* Model */,
 				48086D55260CFAAE00C3F862 /* Assets.xcassets */,
 				48086D5A260CFAAE00C3F862 /* Info.plist */,
 				48086D57260CFAAE00C3F862 /* Preview Content */,
@@ -128,6 +144,43 @@
 				48086D70260CFAAE00C3F862 /* Info.plist */,
 			);
 			path = SwiftUIGraphingUITests;
+			sourceTree = "<group>";
+		};
+		48086D8E260CFDFF00C3F862 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48086D91260CFE8300C3F862 /* ChartData.swift */,
+				48086D99260CFE9200C3F862 /* MultilineChartData.swift */,
+				48086DA4260CFFAE00C3F862 /* PreviewData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48086D8F260CFE0400C3F862 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				48086D89260CFD4900C3F862 /* CapsuleBarGraphViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48086D90260CFE0F00C3F862 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48086D84260CFCD000C3F862 /* CapsuleBarGraph.swift */,
+				48086D7F260CFB5B00C3F862 /* CapsuleBar.swift */,
+				48086D53260CFAAC00C3F862 /* ContentView.swift */,
+				48086D51260CFAAC00C3F862 /* SwiftUIGraphingApp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48086D9E260CFEC600C3F862 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48086D9F260CFED900C3F862 /* ColorExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48086D8A260CFD4900C3F862 /* CapsuleBarGraphViewModel.swift in Sources */,
+				48086D85260CFCD000C3F862 /* CapsuleBarGraph.swift in Sources */,
 				48086D54260CFAAC00C3F862 /* ContentView.swift in Sources */,
+				48086DA0260CFED900C3F862 /* ColorExtension.swift in Sources */,
 				48086D52260CFAAC00C3F862 /* SwiftUIGraphingApp.swift in Sources */,
+				48086DA5260CFFAE00C3F862 /* PreviewData.swift in Sources */,
+				48086D92260CFE8300C3F862 /* ChartData.swift in Sources */,
+				48086D80260CFB5B00C3F862 /* CapsuleBar.swift in Sources */,
+				48086D9A260CFE9200C3F862 /* MultilineChartData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
