@@ -43,15 +43,15 @@ public struct Point: Hashable {
 
     let description: String
     let value: Double
-    let uid: UUID
+    let id: UUID
     
     init(_ desc: String, _ val: Double) {
         self.description = desc
         self.value = val
-        self.uid = UUID()
+        self.id = UUID()
     }
     
     public static func == (lhs: Point, rhs: Point) -> Bool {
-        return lhs.uid == rhs.uid
+        return lhs.id == rhs.id
     }
 }

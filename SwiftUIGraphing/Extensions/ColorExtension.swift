@@ -29,25 +29,11 @@ extension Color {
 }
 
 public struct Colors {
-    public static let color1:Color = Color(hexString: "#E2FAE7")
-    public static let color1Accent:Color = Color(hexString: "#72BF82")
-    public static let color2:Color = Color(hexString: "#EEF1FF")
-    public static let color2Accent:Color = Color(hexString: "#4266E8")
-    public static let color3:Color = Color(hexString: "#FCECEA")
-    public static let color3Accent:Color = Color(hexString: "#E1614C")
-    public static let OrangeEnd:Color = Color(hexString: "#FF782C")
-    public static let OrangeStart:Color = Color(hexString: "#EC2301")
-    public static let LegendText:Color = Color(hexString: "#A7A6A8")
-    public static let LegendColor:Color = Color(hexString: "#E8E7EA")
-    public static let LegendDarkColor:Color = Color(hexString: "#545454")
-    public static let IndicatorKnob:Color = Color(hexString: "#FF57A6")
-    public static let GradientUpperBlue:Color = Color(hexString: "#C2E8FF")
-    public static let GradinetUpperBlue1:Color = Color(hexString: "#A8E1FF")
-    public static let GradientPurple:Color = Color(hexString: "#7B75FF")
-    public static let GradientNeonBlue:Color = Color(hexString: "#6FEAFF")
-    public static let GradientLowerBlue:Color = Color(hexString: "#F1F9FF")
-    public static let DarkPurple:Color = Color(hexString: "#1B205E")
-    public static let BorderBlue:Color = Color(hexString: "#4EBCFF")
+    public static let honeydew:Color = Color(hexString: "#E2FAE7")
+    public static let emerald:Color = Color(hexString: "#72BF82")
+
+    public static let midGrey: Color = Color(hexString: "6E7076")
+    public static let platinum: Color = Color(hexString: "EAEAEC")
 }
 
 public struct GradientColor {
@@ -64,14 +50,12 @@ public struct GradientColor {
     }
 }
 
-public struct GradientColors {
-    public static let orange = GradientColor(start: Colors.OrangeStart, end: Colors.OrangeEnd)
-    public static let blue = GradientColor(start: Colors.GradientPurple, end: Colors.GradientNeonBlue)
-    public static let green = GradientColor(start: Color(hexString: "0BCDF7"), end: Color(hexString: "A2FEAE"))
-    public static let blu = GradientColor(start: Color(hexString: "0591FF"), end: Color(hexString: "29D9FE"))
-    public static let bluPurpl = GradientColor(start: Color(hexString: "4ABBFB"), end: Color(hexString: "8C00FF"))
-    public static let purple = GradientColor(start: Color(hexString: "741DF4"), end: Color(hexString: "C501B0"))
-    public static let prplPink = GradientColor(start: Color(hexString: "BC05AF"), end: Color(hexString: "FF1378"))
-    public static let prplNeon = GradientColor(start: Color(hexString: "FE019A"), end: Color(hexString: "FE0BF4"))
-    public static let orngPink = GradientColor(start: Color(hexString: "FF8E2D"), end: Color(hexString: "FF4E7A"))
+
+
+public struct RingColorSets {
+    static let yellow =  RingColors(background: Color(hexString: "FFEEC0"), start: Color(hexString: "FFCC41"), end: Color(hexString:"FFBE0A"))
+    static let blue = RingColors(background: Color(hexString: "7FE3F0"), start: Color(hexString: "28B0C1"), end: Color(hexString: "1F8A98"))
+    static let orngPink = RingColors(background: Color(hexString: "FFB9AB"), start: Color(hexString: "ff6f52"), end: Color(hexString: "FF441F"))
+    static let prplBlue = RingColors(background: Color(hexString: "CDB8FF"), start: Color(hexString: "8C80F8"), end: Color(hexString: "6151F6"))
+    static let green = RingColors(background: Color(hexString: "E2FAE7"), start: Color(hexString: "6AC87E"), end: Color(hexString: "3FAA57"))
 }

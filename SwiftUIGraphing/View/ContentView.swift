@@ -7,32 +7,44 @@
 
 import SwiftUI
 
+enum Tab {
+    case rings
+    case capsule
+}
+
 struct ContentView: View {
     
-    @State private var dataPicker: String = "Data1"
+    @State private var selectedTab: Tab = .capsule
     
-    private var data: [String: [Int]] = [
-         "Data1": [28, 25, 30, 29, 23],
-         "Data2": [3, 1, 2, 4, 3],
-         "Data3": [2, 6, 8, 3, 4]
-    ]
-    
+    var animation: Animation {
+        return Animation.easeIn(duration: 2.0)
+    }
     
     var body: some View {
         VStack {
-            Text("Let's Graph!")
-                .foregroundColor(.white)
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .padding()
-            Picker("", selection: $dataPicker) {
-                Text("Data1").tag("Data1")
-                Text("Data2").tag("Data2")
-                Text("Data3").tag("Data3")
-            }.pickerStyle(SegmentedPickerStyle())
-            .padding()
+            Image("logo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(height: 50)
+            CustomPicker(selectedTab: $selectedTab, tabVMs: PreviewData.tabVMs)
+            .padding(.top, 30)
+            .padding([.leading, .trailing], 50)
+            graphView
+        }.padding([.leading, .trailing], 20)
+        .padding(.top, 15)
+    }
+    
+    var graphView: some View {
+        switch selectedTab {
+        case .rings:
+            return AnyView(RingGraph(vm: PreviewData.ringGraphVM, ringThickness: 15, centerSpace: 50.0))
+                .transition(AnyTransition.slide)
+        case .capsule:
+            return AnyView(CapsuleBarGraph(viewModel: PreviewData.barGraphVM))
+                .transition(AnyTransition.slide)
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

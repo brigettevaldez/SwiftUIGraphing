@@ -20,6 +20,24 @@
 		48086D9A260CFE9200C3F862 /* MultilineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D99260CFE9200C3F862 /* MultilineChartData.swift */; };
 		48086DA0260CFED900C3F862 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086D9F260CFED900C3F862 /* ColorExtension.swift */; };
 		48086DA5260CFFAE00C3F862 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48086DA4260CFFAE00C3F862 /* PreviewData.swift */; };
+		486BEAA1260E713B0059DD9E /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486BEAA0260E713B0059DD9E /* CustomPicker.swift */; };
+		486BEAA6260E77E50059DD9E /* PickerLabelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486BEAA5260E77E50059DD9E /* PickerLabelViewModel.swift */; };
+		48EA2587260D158300751710 /* CapsuleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA2586260D158300751710 /* CapsuleLabel.swift */; };
+		48EA258C260D161100751710 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA258B260D161100751710 /* FontExtension.swift */; };
+		48EA259D260D16AA00751710 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA2593260D16AA00751710 /* Rubik-MediumItalic.ttf */; };
+		48EA259E260D16AA00751710 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA2594260D16AA00751710 /* Rubik-Bold.ttf */; };
+		48EA259F260D16AA00751710 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA2595260D16AA00751710 /* Rubik-Light.ttf */; };
+		48EA25A0260D16AA00751710 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA2596260D16AA00751710 /* Rubik-Medium.ttf */; };
+		48EA25A1260D16AA00751710 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA2597260D16AA00751710 /* Rubik-Black.ttf */; };
+		48EA25A2260D16AA00751710 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA2598260D16AA00751710 /* Rubik-Italic.ttf */; };
+		48EA25A3260D16AA00751710 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA2599260D16AA00751710 /* Rubik-LightItalic.ttf */; };
+		48EA25A4260D16AB00751710 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA259A260D16AA00751710 /* Rubik-BlackItalic.ttf */; };
+		48EA25A5260D16AB00751710 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA259B260D16AA00751710 /* Rubik-Regular.ttf */; };
+		48EA25A6260D16AB00751710 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EA259C260D16AA00751710 /* Rubik-BoldItalic.ttf */; };
+		48EA25AC260D1DD600751710 /* RingGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA25AB260D1DD600751710 /* RingGraph.swift */; };
+		48EA25B5260D1E4000751710 /* RingGraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA25B4260D1E4000751710 /* RingGraphViewModel.swift */; };
+		48EA25BA260D1E7200751710 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA25B9260D1E7200751710 /* RingView.swift */; };
+		48EA25BF260D1F6900751710 /* RingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA25BE260D1F6900751710 /* RingData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +77,24 @@
 		48086D99260CFE9200C3F862 /* MultilineChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineChartData.swift; sourceTree = "<group>"; };
 		48086D9F260CFED900C3F862 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		48086DA4260CFFAE00C3F862 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		486BEAA0260E713B0059DD9E /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		486BEAA5260E77E50059DD9E /* PickerLabelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerLabelViewModel.swift; sourceTree = "<group>"; };
+		48EA2586260D158300751710 /* CapsuleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleLabel.swift; sourceTree = "<group>"; };
+		48EA258B260D161100751710 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		48EA2593260D16AA00751710 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		48EA2594260D16AA00751710 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		48EA2595260D16AA00751710 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		48EA2596260D16AA00751710 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		48EA2597260D16AA00751710 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		48EA2598260D16AA00751710 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		48EA2599260D16AA00751710 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		48EA259A260D16AA00751710 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		48EA259B260D16AA00751710 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		48EA259C260D16AA00751710 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		48EA25AB260D1DD600751710 /* RingGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingGraph.swift; sourceTree = "<group>"; };
+		48EA25B4260D1E4000751710 /* RingGraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingGraphViewModel.swift; sourceTree = "<group>"; };
+		48EA25B9260D1E7200751710 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		48EA25BE260D1F6900751710 /* RingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +145,11 @@
 		48086D50260CFAAC00C3F862 /* SwiftUIGraphing */ = {
 			isa = PBXGroup;
 			children = (
+				48EA2590260D164E00751710 /* Resources */,
 				48086D9E260CFEC600C3F862 /* Extensions */,
 				48086D90260CFE0F00C3F862 /* View */,
 				48086D8F260CFE0400C3F862 /* ViewModel */,
 				48086D8E260CFDFF00C3F862 /* Model */,
-				48086D55260CFAAE00C3F862 /* Assets.xcassets */,
 				48086D5A260CFAAE00C3F862 /* Info.plist */,
 				48086D57260CFAAE00C3F862 /* Preview Content */,
 			);
@@ -150,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				48086D91260CFE8300C3F862 /* ChartData.swift */,
+				48EA25BE260D1F6900751710 /* RingData.swift */,
 				48086D99260CFE9200C3F862 /* MultilineChartData.swift */,
 				48086DA4260CFFAE00C3F862 /* PreviewData.swift */,
 			);
@@ -160,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				48086D89260CFD4900C3F862 /* CapsuleBarGraphViewModel.swift */,
+				48EA25B4260D1E4000751710 /* RingGraphViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -167,9 +205,11 @@
 		48086D90260CFE0F00C3F862 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				48086D84260CFCD000C3F862 /* CapsuleBarGraph.swift */,
-				48086D7F260CFB5B00C3F862 /* CapsuleBar.swift */,
+				48EA25B3260D1DE300751710 /* CapsuleGraph */,
+				48EA25AA260D1DC500751710 /* RingGraph */,
 				48086D53260CFAAC00C3F862 /* ContentView.swift */,
+				486BEAA0260E713B0059DD9E /* CustomPicker.swift */,
+				486BEAA5260E77E50059DD9E /* PickerLabelViewModel.swift */,
 				48086D51260CFAAC00C3F862 /* SwiftUIGraphingApp.swift */,
 			);
 			path = View;
@@ -179,8 +219,54 @@
 			isa = PBXGroup;
 			children = (
 				48086D9F260CFED900C3F862 /* ColorExtension.swift */,
+				48EA258B260D161100751710 /* FontExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		48EA2590260D164E00751710 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48EA2592260D16AA00751710 /* Fonts */,
+				48086D55260CFAAE00C3F862 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		48EA2592260D16AA00751710 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				48EA2593260D16AA00751710 /* Rubik-MediumItalic.ttf */,
+				48EA2594260D16AA00751710 /* Rubik-Bold.ttf */,
+				48EA2595260D16AA00751710 /* Rubik-Light.ttf */,
+				48EA2596260D16AA00751710 /* Rubik-Medium.ttf */,
+				48EA2597260D16AA00751710 /* Rubik-Black.ttf */,
+				48EA2598260D16AA00751710 /* Rubik-Italic.ttf */,
+				48EA2599260D16AA00751710 /* Rubik-LightItalic.ttf */,
+				48EA259A260D16AA00751710 /* Rubik-BlackItalic.ttf */,
+				48EA259B260D16AA00751710 /* Rubik-Regular.ttf */,
+				48EA259C260D16AA00751710 /* Rubik-BoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		48EA25AA260D1DC500751710 /* RingGraph */ = {
+			isa = PBXGroup;
+			children = (
+				48EA25AB260D1DD600751710 /* RingGraph.swift */,
+				48EA25B9260D1E7200751710 /* RingView.swift */,
+			);
+			path = RingGraph;
+			sourceTree = "<group>";
+		};
+		48EA25B3260D1DE300751710 /* CapsuleGraph */ = {
+			isa = PBXGroup;
+			children = (
+				48086D7F260CFB5B00C3F862 /* CapsuleBar.swift */,
+				48EA2586260D158300751710 /* CapsuleLabel.swift */,
+				48086D84260CFCD000C3F862 /* CapsuleBarGraph.swift */,
+			);
+			path = CapsuleGraph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +372,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EA25A4260D16AB00751710 /* Rubik-BlackItalic.ttf in Resources */,
+				48EA25A6260D16AB00751710 /* Rubik-BoldItalic.ttf in Resources */,
 				48086D59260CFAAE00C3F862 /* Preview Assets.xcassets in Resources */,
+				48EA259E260D16AA00751710 /* Rubik-Bold.ttf in Resources */,
+				48EA259F260D16AA00751710 /* Rubik-Light.ttf in Resources */,
+				48EA25A3260D16AA00751710 /* Rubik-LightItalic.ttf in Resources */,
+				48EA25A1260D16AA00751710 /* Rubik-Black.ttf in Resources */,
+				48EA25A5260D16AB00751710 /* Rubik-Regular.ttf in Resources */,
+				48EA25A2260D16AA00751710 /* Rubik-Italic.ttf in Resources */,
+				48EA25A0260D16AA00751710 /* Rubik-Medium.ttf in Resources */,
+				48EA259D260D16AA00751710 /* Rubik-MediumItalic.ttf in Resources */,
 				48086D56260CFAAE00C3F862 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,10 +412,18 @@
 				48086D85260CFCD000C3F862 /* CapsuleBarGraph.swift in Sources */,
 				48086D54260CFAAC00C3F862 /* ContentView.swift in Sources */,
 				48086DA0260CFED900C3F862 /* ColorExtension.swift in Sources */,
+				48EA25BA260D1E7200751710 /* RingView.swift in Sources */,
+				48EA2587260D158300751710 /* CapsuleLabel.swift in Sources */,
+				486BEAA1260E713B0059DD9E /* CustomPicker.swift in Sources */,
 				48086D52260CFAAC00C3F862 /* SwiftUIGraphingApp.swift in Sources */,
 				48086DA5260CFFAE00C3F862 /* PreviewData.swift in Sources */,
 				48086D92260CFE8300C3F862 /* ChartData.swift in Sources */,
+				48EA25B5260D1E4000751710 /* RingGraphViewModel.swift in Sources */,
+				48EA25AC260D1DD600751710 /* RingGraph.swift in Sources */,
+				48EA25BF260D1F6900751710 /* RingData.swift in Sources */,
 				48086D80260CFB5B00C3F862 /* CapsuleBar.swift in Sources */,
+				48EA258C260D161100751710 /* FontExtension.swift in Sources */,
+				486BEAA6260E77E50059DD9E /* PickerLabelViewModel.swift in Sources */,
 				48086D9A260CFE9200C3F862 /* MultilineChartData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
